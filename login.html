@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Klozit | LogIn</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="span-bar"></span>
+      </label>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-home"></use>
+            </svg>
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-info-with-circle"></use>
+            </svg>
+            <!-- line break -->
+            About
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link nav-link--3">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-shop"></use>
+            </svg>
+            Shopping <span class="nav-expand">&#10151;</span>
+          </a>
+          <ul class="nav-shopping">
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Shirts</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Pants</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Shoes</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;All</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" class="nav-shopping-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-login"></use>
+            </svg>
+            Login
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="section__login">
+      <div class="wrapper">
+        <h1 class="form__header">Login</h1>
+        <form action="#" class="login__form">
+          <div class="login__group">
+            <label for="username" class="form__label">Username</label>
+            <input
+              id="username"
+              type="text"
+              class="login__input"
+              placeholder="Enter UserName"
+              autocomplete="off"
+            />
+          </div>
+          <div class="login__group">
+            <label for="password" class="form__label">Password</label>
+            <input
+              id="password"
+              type="password"
+              class="login__input"
+              placeholder="Enter Password"
+              autocomplete="off"
+            />
+          </div>
+          <div class="login__group login__settings">
+            <div class="login__checkbox">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">Remember me </label>
+            </div>
+            <a href="#" class="login__forgot_pwd">Forgot Password ?</a>
+          </div>
+          <div class="login__group login__settings">
+            <button class="btn--submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

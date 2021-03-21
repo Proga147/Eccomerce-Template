@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clothing Site Demo | author @ shane Proverbs</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="span-bar"></span>
+      </label>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-home"></use>
+            </svg>
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-info-with-circle"></use>
+            </svg>
+            <!-- line break -->
+            About
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link nav-link--3">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-shop"></use>
+            </svg>
+            Shopping <span class="nav-expand">&#10151;</span>
+          </a>
+          <ul class="nav-shopping">
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Shirts</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Pants</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;Shoes</a>
+            </li>
+            <li class="nav-shopping-item">
+              <a href="#" class="nav-shopping-link">&#10146;&nbsp;All</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link" class="nav-shopping-link">
+            <svg class="icon icons">
+              <use xlink:href="imgs/sprite.svg#icon-login"></use>
+            </svg>
+            Login
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="header--main">
+        <h2>Kloz.it</h2>
+        <h2>Kloz.it</h2>
+        <h2>Kloz.it</h2>
+        <h2>Kloz.it</h2>
+      </div>
+      <div class="header--sub">
+        <h3 class="header--sub--text">
+          Welcome! to klozit, Here you will find styles to meet your everday
+          needs.
+        </h3>
+        <a href="#" class="btn btn-start">Browse Collection</a>
+      </div>
+    </div>
+
+    <section class="browse__content">
+      <div class="content__wrapper">
+        <div class="content__left">
+          <div class="content__sub">
+            <a href="#">
+              <img
+                class="content__sub--1"
+                src="https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt=""
+              />
+              <h3 class="content__sub-title">Jewelry</h3>
+            </a>
+          </div>
+          <div class="content__sub">
+            <a href="#">
+              <img
+                class="content__sub--2"
+                src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt=""
+              />
+              <h3 class="content__sub-title">Shirts</h3>
+            </a>
+          </div>
+          <div class="content__sub">
+            <a href="#">
+              <img
+                class="content__sub--3"
+                src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt=""
+              />
+              <h3 class="content__sub-title">Shoes</h3>
+            </a>
+          </div>
+          <div class="content__sub">
+            <a href="#">
+              <img
+                class="content__sub--4"
+                src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1226&q=80"
+                alt=""
+              />
+              <h3 class="content__sub-title">Jeans</h3>
+            </a>
+          </div>
+        </div>
+        <div class="content__right">
+          <div class="content__sub-right">
+            <a href="">
+              <img
+                class="content__sub--5"
+                src="https://images.unsplash.com/photo-1574781894069-d802af3a2dff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                alt=""
+              />
+              <h3 class="content__sub-title">OutFits</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="best-products">
+      <div class="heading-wrapper">
+        <h1 class="products__heading">Trending Products</h1>
+      </div>
+
+      <div class="products__list">
+        <div class="card">
+          <a href="#">
+            <img
+              class="card__img"
+              src="https://images.unsplash.com/photo-1536243298747-ea8874136d64?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt=""
+            />
+          </a>
+          <h4 class="card__description">Klothit Black Jeans</h4>
+          <h4 class="card__price">$44.95</h4>
+
+          <div class="cta">
+            <a href="#" class="btn-cta btn-cta--1">Add to Cart</a>
+            <a href="#" class="btn-cta btn-cta--2">Wish List</a>
+            <a href="#" class="btn-cta btn-cta--3">Compare Prices</a>
+          </div>
+        </div>
+        <!-- card 1 -->
+        <div class="card">
+          <a href="#">
+            <img
+              class="card__img"
+              src="https://images.unsplash.com/photo-1572804013427-4d7ca7268217?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80"
+              alt=""
+            />
+          </a>
+          <h4 class="card__description">Summer Khlozit Dress</h4>
+          <h4 class="card__price">$55.95</h4>
+
+          <div class="cta">
+            <a href="#" class="btn-cta btn-cta--1">Add to Cart</a>
+            <a href="#" class="btn-cta btn-cta--2">Wish List</a>
+            <a href="#" class="btn-cta btn-cta--3">Compare Prices</a>
+          </div>
+        </div>
+        <!-- end card 2 -->
+        <div class="card">
+          <a href="#">
+            <img
+              class="card__img"
+              src="https://images.unsplash.com/photo-1511196044526-5cb3bcb7071b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+              alt=""
+            />
+          </a>
+          <h4 class="card__description">Converse Black Sneakers</h4>
+          <h4 class="card__price">$144.95</h4>
+
+          <div class="cta">
+            <a href="#" class="btn-cta btn-cta--1">Add to Cart</a>
+            <a href="#" class="btn-cta btn-cta--2">Wish List</a>
+            <a href="#" class="btn-cta btn-cta--3">Compare Prices</a>
+          </div>
+        </div>
+        <!-- end card 3 -->
+        <div class="card">
+          <a href="#">
+            <img
+              class="card__img"
+              src="https://images.unsplash.com/photo-1596783047904-4000addd05cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt=""
+            />
+          </a>
+          <h4 class="card__description">Autumn Dress & Brimmed Hat Combo</h4>
+          <h4 class="card__price">$244.95</h4>
+
+          <div class="cta">
+            <a href="#" class="btn-cta btn-cta--1">Add to Cart</a>
+            <a href="#" class="btn-cta btn-cta--2">Wish List</a>
+            <a href="#" class="btn-cta btn-cta--3">Compare Prices</a>
+          </div>
+        </div>
+        <!-- end card 4 -->
+      </div>
+    </section>
+
+    <section class="promotion">
+      <div class="promotion__content-left">
+        <h1 class="promotion__heading--left">Nike Max II</h1>
+      </div>
+      <div class="promotion__content-right">
+        <h1 class="promotion__heading--right">Nike Max II Promotion</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
+          temporibus reiciendis quam, modi recusandae perspiciatis velit minima
+          earum numquam veritatis nulla quod. Voluptas tenetur saepe nesciunt
+          dolores inventore voluptatem vel fuga voluptates! Repellat officiis
+          nulla tempore accusamus voluptatum veritatis debitis?
+        </p>
+        <a href="#" class="btn--promotion">Add to Cart</a>
+      </div>
+    </section>
+  </body>
+</html>

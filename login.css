@@ -1,0 +1,501 @@
+.section__login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(240, 170, 20, 0.8),
+      rgba(0, 59, 94, 0.8)
+    ),
+    url(https://images.unsplash.com/photo-1552867544-184c9903cddf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__form {
+  display: flex;
+  background-color: rgba(110, 109, 109, 0.24);
+  width: 100%;
+  min-height: 40rem;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #e0e0e0;
+  padding: 5rem;
+}
+.login__group {
+  margin-bottom: 3rem;
+}
+.login__input {
+  display: block;
+  width: 70%;
+  padding: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  transition: opacity 0.5s ease, transform 0.3s;
+}
+.login__input:focus {
+  transform: scale(1.02);
+  color: #fda085;
+}
+
+.login__input:focus::-webkit-input-placeholder {
+  color: #fda085;
+}
+
+.login__input:focus::-moz-placeholder {
+  color: #fda085;
+}
+
+.login__input:focus:-ms-input-placeholder {
+  color: #fda085;
+}
+
+.login__input:focus::-ms-input-placeholder {
+  color: #fda085;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder,
+.login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder,
+.login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder,
+.login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder,
+.login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-webkit-input-placeholder, .login__input::-webkit-input-placeholder {
+  color: #fda085;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-moz-placeholder, .login__input::-moz-placeholder {
+  color: #fda085;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus:-ms-input-placeholder, .login__input:-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::-ms-input-placeholder, .login__input::-ms-input-placeholder {
+  color: #fda085;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.login__input:focus::placeholder,
+.login__input::placeholder {
+  color: #fda085;
+  transition: color 0.5s;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+.form__label {
+  display: block;
+  margin-bottom: 2rem;
+}
+.btn--submit {
+  padding: 1.5rem 6rem;
+  border-radius: 5px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  transition: opacity 0.3s;
+}
+.btn--submit:hover {
+  opacity: 0.7;
+}
+.login__settings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #e0e0e0;
+  font-size: 3rem;
+  width: 50%;
+  margin-top: 10rem;
+}
+.login__checkbox {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+.login__checkbox > label {
+  margin-left: 1rem;
+}
+.login__forgot_pwd,
+.login__forgot_pwd:link {
+  color: #e0e0e0;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+.login__forgot_pwd:hover,
+.login__forgot_pwd:active {
+  color: #ad42db;
+}
+.form__header {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
