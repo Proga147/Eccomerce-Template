@@ -1,0 +1,27 @@
+/* print.css */
+header,
+footer,
+aside,
+nav,
+form,
+iframe,
+.menu,
+.hero,
+.adslot {
+  display: none;
+}
+
+* {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 55%;
+}
+
+.btn-start {
+  display: none;
+}
+
+.header--sub--text {
+  font-size: 3rem;
+}
