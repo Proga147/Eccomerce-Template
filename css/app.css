@@ -597,6 +597,9 @@ body {
   html {
     font-size: 54%;
   }
+  .btn-cta {
+    font-size: 1.7rem;
+  }
 }
 
 @media only screen and (min-width: 60em) and (max-width: 75em) {
@@ -830,7 +833,7 @@ body {
     text-align: center;
   }
   .promotion {
-    height: 50rem;
+    height: auto;
     padding: 2rem;
   }
 
