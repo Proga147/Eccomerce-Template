@@ -218,12 +218,12 @@ body {
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 3px 5px #a4abad;
-  height: 40rem;
+  height: 34rem;
   margin: 1rem 0 0 0;
 }
 .content__sub-right {
   margin: 1rem 0 0 0;
-  height: 81rem;
+  height: 69rem; /* 34px*2 + 1 */
 }
 .content__sub--1,
 .content__sub--2,
@@ -308,7 +308,7 @@ body {
   box-shadow: 0 3px 5px #a4abad;
   text-align: center;
   font-size: 2rem;
-  height: 45rem;
+  height: 40rem;
 }
 .card__img {
   width: 100%;
@@ -932,16 +932,6 @@ body {
   .content__sub-right {
     min-width: 0;
     flex: 0 0 70%;
-  }
-}
-
-@media only screen and (min-width: 125em) {
-  html {
-    font-size: 50%;
-  }
-  body {
-    width: 100vw;
-    margin: 0 auto;
   }
 }
 
