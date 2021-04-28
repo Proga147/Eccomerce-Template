@@ -212,7 +212,6 @@ body {
   display: flex;
   flex: 0 0 35%;
   margin-right: 8rem;
-
 }
 .content__sub {
   position: relative;
@@ -629,7 +628,7 @@ body {
   }
   .content__right {
     justify-content: center;
-    margin:unset;
+    margin: unset;
   }
   .content__sub-right {
     flex: 0 0 67%;
@@ -794,11 +793,10 @@ body {
     flex: 0 0 40%;
     margin: 0;
     min-width: 37rem;
-    
   }
   .content__right {
     justify-content: center;
-    margin:unset;
+    margin: unset;
   }
   .content__sub-right {
     flex: 0 0 81%;
@@ -925,7 +923,6 @@ body {
   .card:not(:last-child) {
     margin-bottom: 4rem;
   }
-
 }
 
 @media only screen and (max-width: 25em) {
@@ -939,7 +936,6 @@ body {
     min-width: 0;
     flex: 0 0 70%;
   }
-
 }
 
 @media only screen and (min-width: 156.25em) {
@@ -961,5 +957,4 @@ body {
   html {
     font-size: 62.5%;
   }
-}
 }
