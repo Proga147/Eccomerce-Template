@@ -11,3 +11,5 @@ Only Tested on Google Chrome, and Firefox.
 
 https://sproga.github.io/Eccomerce-Template/
 
+
+<img src="klozit.png" />
