@@ -12,4 +12,4 @@ Only Tested on Google Chrome, and Firefox.
 https://sproga.github.io/Eccomerce-Template/
 
 
-<img src="klozit.png" />
+<a href="https://sproga.github.io/Eccomerce-Template/" target="_blank"><img src="klozit.png" /><a/>
